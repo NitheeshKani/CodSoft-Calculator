@@ -1,0 +1,32 @@
+#opButtons,
+#specialButtons,
+#numButtons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 16px;
+    column-rule: 4px solid #ccc;
+}
+
+#screen {
+    width: 50%;
+    height: 50px;
+    font-size: 20px;
+    text-align: right;
+    padding: 5px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+
+}
+
+
+button {
+    padding: 10px;
+    font-size: 16px;
+}
